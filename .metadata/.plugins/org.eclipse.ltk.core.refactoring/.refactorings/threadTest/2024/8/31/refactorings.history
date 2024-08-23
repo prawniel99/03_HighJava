@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;temp&apos; in &apos;kr.or.ddit.basic.m0729.ShareDataBox.getData()&apos; to &apos;returnData&apos;&#x0D;&#x0A;- Original project: &apos;threadTest&apos;&#x0D;&#x0A;- Original element: &apos;kr.or.ddit.basic.m0729.ShareDataBox.getData().temp&apos;&#x0D;&#x0A;- Renamed element: &apos;temp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;temp&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;kr.or.ddit.basic.m0729{ThreadTest19.java[ShareDataBox~getData@temp!1113!1131!1120!1123!QString;!0!false" name="returnData" references="true" stamp="1722476187182" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package m8.test;
+
+public interface Hanhwa_안치홍 {
+
+	/**
+	 * 한화안치홍~
+	 * 한화안치홍~ 오옹~
+	 * 승리를~ 위하여~
+	 * 오오오오~ 오~
+	 */
+	
+	/**
+	 * 신장 178cm
+	 */
+	public 신장 height(String 치즈);
+	
+	/**
+	 * 체중 97kg
+	 */
+	public 체중 weight(float 콜라);
+	
+	/**
+	 * 홈런 통산 152개
+	 */
+	public 홈런 homerun(double 초코);
+	
+}

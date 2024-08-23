@@ -1,0 +1,19 @@
+package kr.or.ddit.basic;
+
+public class SingletonTest {
+	
+	public static void main(String[] args) {
+//		MySingleton test1 = new MySingleton(); // private 이라서 외부에서 new 명령어로 생성 불가능
+		
+		MySingleton test2 = MySingleton.getInstance(); // 아하 이거였구나
+		MySingleton test3 = MySingleton.getInstance(); // 객체 변수는 2가지지만, test2와 test3의 참조값이 같음.
+		// new가 아니라, 그냥 참조하는거 두가지를 만들었을 뿐임.
+		
+		System.out.println("test2 ==> "+test2.toString());
+		System.out.println("test3 ==> "+test3.toString());
+		// new는 새로 만들기, getInstance는 그 해당 메소드 하나만 가져오기
+		
+		// 처음 test2를 toString으로 실행하면,
+		// MySingleton.java 로 이동해서 3번의 
+	}
+}

@@ -1,0 +1,7 @@
+package kr.or.ddit.util;
+
+// 1. MyBatis의 환경 설정 파일(mybatis-config.xml)을 읽어와서 그 내용을 처리한 후
+// 처리된 결과를 갖는 SqlSessionFactory객체를 생성하고, 
+public class MybatisUtil {
+
+}

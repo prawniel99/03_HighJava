@@ -1,0 +1,7 @@
+{
+    "editor.suggest.showVariables": true,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "editor.detectIndentation": true,
+    "java.dependency.syncWithFolderExplorer": false,
+    "java.dependency.packagePresentation": "hierarchical"
+}

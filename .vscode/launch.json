@@ -1,0 +1,588 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MemberController",
+            "request": "launch",
+            "mainClass": "d20mvcTest.controller.MemberController",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N02JdbcTest07",
+            "request": "launch",
+            "mainClass": "m8.d19.N02JdbcTest07",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N01JdbcTest06",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N01JdbcTest06",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N04JdbcTest05Teacher",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N04JdbcTest05Teacher",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N04JdbcTest05",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N04JdbcTest05",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N03JdbcTest04",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N03JdbcTest04",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N02JdbcTest03",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N02JdbcTest03",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N01JdbcTest02",
+            "request": "launch",
+            "mainClass": "m8.d12jdbcTest.N01JdbcTest02",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N01JdbcTest01",
+            "request": "launch",
+            "mainClass": "m8.d09jdbcTest.N01JdbcTest01",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N06TcpClient03",
+            "request": "launch",
+            "mainClass": "m8.d08.N06TcpClient03",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N04TcpClient02",
+            "request": "launch",
+            "mainClass": "m8.d08.N04TcpClient02",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N02TcpClient01",
+            "request": "launch",
+            "mainClass": "m8.d07TCP.N02TcpClient01",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N01TcpServer01",
+            "request": "launch",
+            "mainClass": "m8.d07TCP.N01TcpServer01",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N03URLTest02",
+            "request": "launch",
+            "mainClass": "m8.d07javaNetworkTest.N03URLTest02",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "NtwoURLTest01",
+            "request": "launch",
+            "mainClass": "m8.d07javaNetworkTest.NtwoURLTest01",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "NoneInetAddressTest",
+            "request": "launch",
+            "mainClass": "m8.d07javaNetworkTest.NoneInetAddressTest",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N04_PhoneBookTest",
+            "request": "launch",
+            "mainClass": "m8.d06.N04_PhoneBookTest",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "_05ByteArrayIOTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic._05ByteArrayIOTest02",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "_02FileTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic._02FileTest02",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "N04_PhoneBook",
+            "request": "launch",
+            "mainClass": "m8.d06.N04_PhoneBook",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N02_OBjectIOTest01",
+            "request": "launch",
+            "mainClass": "m8.d06.N02_OBjectIOTest01",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "N03_OBjectIOTest02",
+            "request": "launch",
+            "mainClass": "m8.d06.N03_OBjectIOTest02",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "D0604_PhoneBook",
+            "request": "launch",
+            "mainClass": "m8.d06.D0604_PhoneBook",
+            "projectName": "m8"
+        },
+        {
+            "type": "java",
+            "name": "FileIOTest04",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileIOTest04",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileIOTest03",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileIOTest03",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileIOTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileIOTest02",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ByteArrayIOTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.ByteArrayIOTest01",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "ByteArrayIOTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.ByteArrayIOTest02",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileIOTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileIOTest01",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileTest01",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileTest02",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "FileTest03",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.FileTest03",
+            "projectName": "JavaIOTest"
+        },
+        {
+            "type": "java",
+            "name": "AA",
+            "request": "launch",
+            "mainClass": "main.AA",
+            "projectName": "aHaminWork"
+        },
+        {
+            "type": "java",
+            "name": "AAA",
+            "request": "launch",
+            "mainClass": "main.AAA",
+            "projectName": "aHaminWork"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "string.Strings",
+            "projectName": "aHaminWork"
+        },
+        {
+            "type": "java",
+            "name": "ClassPractice",
+            "request": "launch",
+            "mainClass": "hamin.ClassPractice",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "LuckTest",
+            "request": "launch",
+            "mainClass": "hamin.LuckTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "ScannerTest",
+            "request": "launch",
+            "mainClass": "hamin.ScannerTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "Jul23BaseballTeacher",
+            "request": "launch",
+            "mainClass": "homework.Jul23BaseballTeacher",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "Jul23Lotto",
+            "request": "launch",
+            "mainClass": "homework.Jul23Lotto",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "PhoneBookTestHW",
+            "request": "launch",
+            "mainClass": "homework.PhoneBookTestHW",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec01.ArrayListTest01",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec01.ArrayListTest02",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "VectorTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec01.VectorTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "HaminTry",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.HaminTry",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "ListSortTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.ListSortTest01",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "ListSortTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.ListSortTest02",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "StackQueueTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.StackQueueTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.StackTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "BaseBallTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec03.BaseBallTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "SetTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec03.SetTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "StudentTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec03.StudentTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "EqualHashCodeTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec04.EqualHashCodeTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "MapTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec04.MapTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "PhoneBookTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec04.PhoneBookTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "PropertiesTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec05.PropertiesTest",
+            "projectName": "collectionTest"
+        },
+        {
+            "type": "java",
+            "name": "GenericTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec01.GenericTest",
+            "projectName": "genericTest"
+        },
+        {
+            "type": "java",
+            "name": "TestArgs",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec01.TestArgs",
+            "projectName": "genericTest"
+        },
+        {
+            "type": "java",
+            "name": "EnumTest",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.sec02.EnumTest",
+            "projectName": "genericTest"
+        },
+        {
+            "type": "java",
+            "name": "Hotel",
+            "request": "launch",
+            "mainClass": "homework.Hotel",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "HotelTeacher",
+            "request": "launch",
+            "mainClass": "homework.HotelTeacher",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest01",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest01",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest02",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest02",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest03",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest03",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest04",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest04",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest05",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest05",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest06",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest06",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest07",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest07",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest07Teacher",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest07Teacher",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest08",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest08",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest09",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest09",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest10",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest10",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest11",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest11",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest12",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest12",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest12Teacher",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest12Teacher",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest13",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest13",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest14",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest14",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest15",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest15",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest16",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest16",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest17",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest17",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest18",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest18",
+            "projectName": "threadTest"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest19",
+            "request": "launch",
+            "mainClass": "kr.or.ddit.basic.m0729.ThreadTest19",
+            "projectName": "threadTest"
+        }
+    ]
+}

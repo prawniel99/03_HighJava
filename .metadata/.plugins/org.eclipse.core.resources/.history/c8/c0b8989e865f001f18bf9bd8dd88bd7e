@@ -1,0 +1,9 @@
+package kr.or.ddit.basic;
+
+public class SingletonTest {
+	
+	public static void main(String[] args) {
+//		MySingleton test1 = new MySingleton(); // private 이라서 외부에서 new 명령어로 생성 불가능
+		MySingleton test2;
+	}
+}

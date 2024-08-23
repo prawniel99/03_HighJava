@@ -1,0 +1,8 @@
+package kr.or.ddit.basic;
+
+public class SingletonTest {
+	
+	public static void main(String[] args) {
+		MySingleton test1 = new MySingleton()
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;PDFTest.java&apos; to &apos;KoreanTextExample.java&apos;&#x0D;&#x0A;- Original project: &apos;ItextTest2Maven&apos;&#x0D;&#x0A;- Original element: &apos;PDFTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;KoreanTextExample.java&apos;" description="Rename compilation unit &apos;PDFTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{PDFTest.java" name="KoreanTextExample.java" references="false" stamp="1723197546364" version="1.0"/>
+</session>
