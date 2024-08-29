@@ -47,4 +47,11 @@
     <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
     <fullyQualifiedTypeName name="kr.or.ddit.util.MybatisUtil"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="d20mvcTest.dao.IMemberDao"/>
+    <fullyQualifiedTypeName name="d20mvcTest.service.IMemberService"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Response"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>

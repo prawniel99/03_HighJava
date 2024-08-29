@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="lprodGu4"/>
+		<item key="selection" value="+"/>
 		<list key="findhistory">
+			<item value="+"/>
+			<item value="table"/>
+			<item value="qwer"/>
+			<item value="$"/>
 			<item value="lprodgu4"/>
 			<item value="input"/>
 			<item value="select"/>
@@ -21,21 +25,21 @@
 			<item value="=&gt;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="%"/>
+			<item value="/"/>
+			<item value="*"/>
+			<item value="배드민턴"/>
+			<item value="테니스"/>
+			<item value="장기"/>
+			<item value="바둑"/>
+			<item value="독서"/>
+			<item value="여행"/>
+			<item value="전문직"/>
+			<item value="회사원"/>
+			<item value="학생"/>
+			<item value="무직"/>
+			<item value="#"/>
 			<item value="update"/>
-			<item value="delete"/>
-			<item value="insert"/>
-			<item value="long"/>
-			<item value="90"/>
-			<item value="70"/>
-			<item value="100"/>
-			<item value="75"/>
-			<item value="85"/>
-			<item value="80"/>
-			<item value="95"/>
-			<item value="이몽룡"/>
-			<item value="이순신"/>
-			<item value="일지매"/>
-			<item value="변학도"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

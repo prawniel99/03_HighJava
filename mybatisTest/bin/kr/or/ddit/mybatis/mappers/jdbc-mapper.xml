@@ -16,6 +16,7 @@
 <!-- 근데 똑같이 lprod에 insert 하는거면 다를게 뭐가있어 -->
 
 
+<!-- 직접 한거 -->
 	<insert id="insertLprod" parameterType="kr.or.ddit.vo.LprodVO"> <!-- 전체이름 사용 -->
 		insert into lprod(lprod_id, lprod_gu, lprod_nm)
 		values((select nvl(max(lprod_id)+1,0) from lprod), #{lprod_gu}, #{lprod_nm})
@@ -24,7 +25,21 @@
 	<select id="checkLprod" resultType="lprodVo"> <!-- 전체이름 사용 -->
 		select * from lprod where lprod_gu=#{lprod_gu}
 	</select>
-
-
+	
+<!-- 선생님이 한거 -->
+<!--
+	<select id="getMaxId" resultType="int">
+		select nvl(max(lprod_id), 0) + 1 maxid from lprod
+	</select>
+	
+	<select id="getLprodCount" parameterType="String" resultType="int">
+		select count(*) cnt from lprod where lprod_gu = #{lprod_gu}
+	</select>
+	
+	<insert id="insertLprod" parameterType="">
+		insert into lprod(Lprod_id, lprod_gu, lprod_nm)
+		values(#{lprod_id}, #{lprod_gu}, #{lprod_nm})
+	</insert>
+-->
 
 </mapper>
