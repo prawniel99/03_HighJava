@@ -18,7 +18,7 @@
 		</form>
 		<br><hr>
 	
-		<form action="<%=request.getContextPath()%>/redirectTest.do" method="post">
+		<form action="<%=request.getContextPath()%>/redirectTest.do" method="post"> <!-- action은 그 servlet 파일로 보낸다는 것 -->
 			redirect 방식: <input type="text" name="username">
 			<input type="submit" value="전송">
 		</form>

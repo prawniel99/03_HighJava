@@ -31,12 +31,16 @@ public class ForwardTargetTest extends HttpServlet {
 		String tel = (String)request.getAttribute("tel");
 		
 		out.println("<html>");
+		
 		out.println("<head>");
 		out.println("<meta charset='utf-8'><title>forward 연습</title>");
 		out.println("</head>");
+		
 		out.println("<body>");
+		
 		out.println("<h3>Forward로 이동한 결과</h3>");
-		out.println("<table border='400px inlet'>");
+		
+		out.println("<table border='40px inlet'>");
 		out.println("<tr>");
 		out.println("<td>이름</td>");
 		out.println("<td>"+userName+"</td>");
@@ -48,23 +52,9 @@ public class ForwardTargetTest extends HttpServlet {
 		out.println("</tr>");
 		
 		out.println("</table>");
-		out.println("");
-		out.println("");
-
 		
-		
-		
-		
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
-		out.println("");
 		out.println("</body>");
+		
 		out.println("</html>");
 		
 		
