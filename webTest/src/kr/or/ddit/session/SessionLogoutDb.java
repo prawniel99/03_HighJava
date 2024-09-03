@@ -20,7 +20,7 @@ public class SessionLogoutDb extends HttpServlet {
 		
 		session.invalidate();
 		
-		response.sendRedirect(request.getContextPath()+"/basic/session/sessionExercise.jsp");
+		response.sendRedirect(request.getContextPath()+"/basic/session/sessionLoginDb.jsp");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
