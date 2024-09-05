@@ -12,7 +12,7 @@
 		<!-- 데이터가 null이 전달되면 빈 칸으로 인식하지 말고 null로 인식하라 -->
 		<setting name="jdbcTypeForNull" value="NULL"/>
 		<!-- MyBatis에 log4j 적용하기 -->
-		<!-- <setting name="LogImpl" value="LOG4J"/> -->
+		<setting name="logImpl" value="LOG4J"/>
 	</settings>
 	
 	<!-- 사용할 VO객체의 별칭 설정하기 -->
@@ -27,6 +27,7 @@
 	<typeAliases>
 		<typeAlias type="kr.or.ddit.vo.MemberVO" alias="memVo"/>
 		<typeAlias type="kr.or.ddit.vo.LprodVO" alias="lprodVo"/>
+		<typeAlias type="kr.or.ddit.vo.FileInfoVO" alias="fileVo"/>
 	</typeAliases>
 
 	
@@ -56,6 +57,7 @@
 	<mappers>
 		<mapper resource="kr/or/ddit/mybatis/mappers/member-mapper.xml"/> <!-- mappers 패키지에 만든 jdbc-maper.xml 추가하려면 이거 하나 추가하면 끝 -->
 		<mapper resource="kr/or/ddit/mybatis/mappers/lprod-mapper.xml"/>
+		<mapper resource="kr/or/ddit/mybatis/mappers/fileinfo-mapper.xml"/>
 	</mappers>
 
 	

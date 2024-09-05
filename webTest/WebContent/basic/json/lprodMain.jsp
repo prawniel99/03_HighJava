@@ -44,12 +44,19 @@
 					dataType : 'json'		// 응답으로 받을 데이터의 Type을 지정한다. json 받고싶으면 'json' html은 'html' 'xml' 'text' 등
 				})
 			})
+			
+			//--------------------------------------------------------------------------------------
+			
+			$('#lprodBtn2').on('click', function(){
+				location.href = "<%=request.getContextPath()/json/lprodList2.do";
+			})
 		})
 		</script>
 	</head>
 	<body>
 		<form>
-			<input type="button" id="lprodBtn" value="Lprod 자료 가져오기">
+			<input type="button" id="lprodBtn" value="Lprod 자료 가져오기(Ajax방식)">
+			<input type="button" id="lprodBtn2" value="Lprod 자료 가져오기(동기방식)">
 		</form>
 		<h3>Lprod 자료 목록</h3>
 		<div id="result"></div>

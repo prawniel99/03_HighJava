@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org/DTD config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+<configuration>
+
+	<!-- DB연결에 사용할 properties 파일에 대한 정보 -->
+	<properties resource="kr/or/ddit/mybatis/config/dbinfo.properties"/> <!-- 알려주는 목적이다 -->
+	
+	<!-- 기본 셋팅값 -->
+	<settings>
+		<!-- 데이터가 null이 전달되면 빈 칸으로 인식하지 말고 null로 인식하라 -->
+		<setting name="jdbcTypeForNull" value="NULL"/>
+		<!-- MyBatis에 log4j 적용하기 -->
+		<setting name="logImpl" value="LOG4J"/>
+	</settings>
+	
+	<!-- 사용할 VO객체의 별칭 설정하기 -->
+	<typeAliases>
+		<typeAlias type="kr.or.ddit.mymem.vo.MymemVO" alias="mymemVo"/>
+	</typeAliases>
+
+	<!-- DB에 접속 설정 -->
+	<environments default="oracleDev">
+		<environment id="oracleDev">
+			<transactionManager type="JDBC"/>
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}"/>
+				<property name="url" value="${url}"/>
+				<property name="username" value="${user}"/>
+				<property name="password" value="${pass}"/>
+			</dataSource>
+		</environment>
+	</environments>
+
+	<!-- mapper -->
+	<mappers>
+		<mapper resource="kr/or/ddit/mybatis/mappers/mymem-mapper.xml"/>
+	</mappers>
+		
+</configuration>

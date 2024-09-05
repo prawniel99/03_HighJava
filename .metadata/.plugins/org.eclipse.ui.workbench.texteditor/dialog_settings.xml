@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="+"/>
+		<item key="selection" value="회원"/>
 		<list key="findhistory">
+			<item value="멤버"/>
+			<item value="part.write"/>
+			<item value="partwrite"/>
 			<item value="+"/>
 			<item value="table"/>
 			<item value="qwer"/>
@@ -20,11 +23,9 @@
 			<item value="95"/>
 			<item value="90"/>
 			<item value="홍길동"/>
-			<item value="/==&gt;"/>
-			<item value=" =&gt;"/>
-			<item value="=&gt;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="회원"/>
 			<item value="%"/>
 			<item value="/"/>
 			<item value="*"/>
@@ -39,7 +40,6 @@
 			<item value="학생"/>
 			<item value="무직"/>
 			<item value="#"/>
-			<item value="update"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
