@@ -13,11 +13,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	
 		<script>
-			$(function(){
-				$('#addMymem').on('click', function(){
-					
-				})
-			})
 		</script>
 	</head>
 	
@@ -29,23 +24,23 @@
 	
 	<body>
 		<h1>회원 전체 목록</h1>
-		<form action="<%=request.getContextPath()%>/insertMymem.do">
-		<table border="1">
-			<% if(mymemList == null || mymemList.size() == 0){	%>
-					<tr><td colspan="7">회원이 없습니다</td></tr>
-			<% } else { %>
-					<tr><td colspan="5"><input type="button" value="회원추가" id="addMymem"></td></tr>
-					<tr><td>ID</td><td>비밀번호</td><td>이름</td><td>전화</td><td>주소</td></tr>
-			<% for(MymemVO mymemVo : mymemList){ %>
-				<tr>
-					<td><%=mymemVo.getMem_id()%></td>
-					<td><%=mymemVo.getMem_pass()%></td>
-					<td><%=mymemVo.getMem_name()%></td>
-					<td><%=mymemVo.getMem_tel()%></td>
-					<td><%=mymemVo.getMem_addr()%></td>
-				</tr>
-			<% } } %>
-		</table>
+		<form action="<%=request.getContextPath()%>/insertMymem.do" method="post">
+			<table border="1">
+				<% if(mymemList == null || mymemList.size() == 0){	%>
+						<tr><td colspan="7">회원이 없습니다</td></tr>
+				<% } else { %>
+						<tr><td colspan="5"><input type="submit" value="회원추가"></td></tr>
+						<tr><td>ID</td><td>비밀번호</td><td>이름</td><td>전화</td><td>주소</td></tr>
+				<% for(MymemVO mymemVo : mymemList){ %>
+					<tr>
+						<td id="id"><%=mymemVo.getMem_id()%></td>
+						<td id="pw"><%=mymemVo.getMem_pass()%></td>
+						<td id="nm"><%=mymemVo.getMem_name()%></td>
+						<td id="ph"><%=mymemVo.getMem_tel()%></td>
+						<td id="ad"><%=mymemVo.getMem_addr()%></td>
+					</tr>
+				<% } } %>
+			</table>
 		</form>
 	</body>
 </html>

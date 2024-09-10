@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Thread.State"/>
-    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="main.Chullyeok"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
     <fullyQualifiedTypeName name="com.itextpdf.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
@@ -30,13 +22,11 @@
     <fullyQualifiedTypeName name="java.lang.ProcessBuilder.Redirect"/>
     <fullyQualifiedTypeName name="kr.or.ddit.session.MemberDaoImpl"/>
     <fullyQualifiedTypeName name="kr.or.ddit.vo.MemberVO"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="kr.or.ddit.json.SampleVO"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="kr.or.ddit.vo.LprodVO"/>
     <fullyQualifiedTypeName name="com.google.gson.Gson"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="kr.or.ddit.fileupload.dao.IFileInfoDao"/>
     <fullyQualifiedTypeName name="kr.or.ddit.fileupload.dao.FileInfoDaoImpl"/>
@@ -57,7 +47,17 @@
     <fullyQualifiedTypeName name="kr.or.ddit.myem.service.IMymemService"/>
     <fullyQualifiedTypeName name="kr.or.ddit.myem.service.MymemServiceImpl"/>
     <fullyQualifiedTypeName name="kr.or.ddit.myMem.vo.MymemVO"/>
-    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kr.or.ddit.util.MybatisUtil"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.mymem.service.IMymemService"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.mymem.service.MymemServiceImpl"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.mymem.vo.MymemVO"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="a.dao.IADao"/>
+    <fullyQualifiedTypeName name="a.dao.ADaoImpl"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="util.MybatisUtil"/>
+    <fullyQualifiedTypeName name="a.vo.Avo"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.member.vo.MemberQnaVO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

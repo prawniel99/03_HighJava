@@ -7,16 +7,28 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import kr.or.ddit.mymem.service.IMymemService;
+import kr.or.ddit.mymem.service.MymemServiceImpl;
+import kr.or.ddit.mymem.vo.MymemVO;
+
 @WebServlet("/insertMymem.do")
 public class InsertMymem extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("hello");
+		request.setCharacterEncoding("utf-8");
+		System.out.println(request.getParameter("id"));
+		
+		System.out.println("d");
+		
+		IMymemService service = MymemServiceImpl.getInstance();
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("hello");
+		System.out.println(request);
+		System.out.println(request.getAttribute("id"));
 	}
 
 }

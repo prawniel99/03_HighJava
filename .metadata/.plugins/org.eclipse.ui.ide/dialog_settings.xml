@@ -14,6 +14,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\A_TeachingMaterial\04_MiddelProject\workspace"/>
 			<item value="D:\A_TeachingMaterial\03_HighJava\workspace\amazing"/>
 			<item value="C:\Users\PC_18\Desktop\mvc1.zip"/>
 			<item value="C:\Users\PC_18\Downloads\workspace\jdbcBoardTest"/>
