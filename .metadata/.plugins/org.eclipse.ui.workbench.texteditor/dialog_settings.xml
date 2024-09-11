@@ -6,25 +6,31 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="회원"/>
+		<item key="selection" value="qnaInsert"/>
 		<list key="findhistory">
-			<item value="멤버"/>
-			<item value="part.write"/>
-			<item value="partwrite"/>
-			<item value="+"/>
-			<item value="table"/>
-			<item value="qwer"/>
-			<item value="$"/>
-			<item value="lprodgu4"/>
-			<item value="input"/>
+			<item value="qnaInsert"/>
+			<item value="&quot;writer&quot;"/>
+			<item value="&quot;write&quot;"/>
+			<item value="action"/>
+			<item value="wmodal"/>
+			<item value="wmoadl"/>
+			<item value="30"/>
+			<item value="collapse"/>
+			<item value="colla"/>
+			<item value="aria"/>
+			<item value="write"/>
+			<item value="pageno"/>
+			<item value="selectboard"/>
 			<item value="select"/>
-			<item value="int"/>
-			<item value="80"/>
-			<item value="95"/>
-			<item value="90"/>
-			<item value="홍길동"/>
+			<item value="test"/>
 		</list>
 		<list key="replacehistory">
+			<item value="qnaInsertModal"/>
+			<item value="v.qna_date"/>
+			<item value="v.mem_id"/>
+			<item value="v.qna_no"/>
+			<item value="QnaVO"/>
+			<item value="qnaVo"/>
 			<item value="회원"/>
 			<item value="%"/>
 			<item value="/"/>
@@ -34,12 +40,6 @@
 			<item value="장기"/>
 			<item value="바둑"/>
 			<item value="독서"/>
-			<item value="여행"/>
-			<item value="전문직"/>
-			<item value="회사원"/>
-			<item value="학생"/>
-			<item value="무직"/>
-			<item value="#"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
