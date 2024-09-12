@@ -6,25 +6,27 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="qnaInsert"/>
+		<item key="selection" value="modify"/>
 		<list key="findhistory">
+			<item value="modify"/>
+			<item value=" "/>
+			<item value="문의글 "/>
+			<item value="문의글"/>
+			<item value="parents"/>
+			<item value="vcard"/>
+			<item value="wform"/>
+			<item value="&amp;"/>
+			<item value="session"/>
+			<item value="logged"/>
+			<item value="vname"/>
+			<item value="action"/>
+			<item value="write"/>
 			<item value="qnaInsert"/>
 			<item value="&quot;writer&quot;"/>
-			<item value="&quot;write&quot;"/>
-			<item value="action"/>
-			<item value="wmodal"/>
-			<item value="wmoadl"/>
-			<item value="30"/>
-			<item value="collapse"/>
-			<item value="colla"/>
-			<item value="aria"/>
-			<item value="write"/>
-			<item value="pageno"/>
-			<item value="selectboard"/>
-			<item value="select"/>
-			<item value="test"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="actionName"/>
 			<item value="qnaInsertModal"/>
 			<item value="v.qna_date"/>
 			<item value="v.mem_id"/>
@@ -38,8 +40,6 @@
 			<item value="배드민턴"/>
 			<item value="테니스"/>
 			<item value="장기"/>
-			<item value="바둑"/>
-			<item value="독서"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
