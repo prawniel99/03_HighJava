@@ -6,26 +6,30 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="modify"/>
+		<item key="selection" value="prod_id"/>
 		<list key="findhistory">
+			<item value="prod_id"/>
+			<item value="qnapid"/>
+			<item value="qnaid"/>
+			<item value="hamin"/>
+			<item value="HAMINHAMIN"/>
+			<item value=".jsp"/>
+			<item value="haminhamin"/>
+			<item value=".do"/>
+			<item value="console"/>
+			<item value="admin"/>
+			<item value="HAMIN"/>
+			<item value="login"/>
+			<item value="글쓰기"/>
+			<item value="vtitle = $(vcard).find(&apos;#title&apos;).replace(/&amp;nbsp;/g, &apos;&apos;).trim();"/>
 			<item value="modify"/>
-			<item value=" "/>
-			<item value="문의글 "/>
-			<item value="문의글"/>
-			<item value="parents"/>
-			<item value="vcard"/>
-			<item value="wform"/>
-			<item value="&amp;"/>
-			<item value="session"/>
-			<item value="logged"/>
-			<item value="vname"/>
-			<item value="action"/>
-			<item value="write"/>
-			<item value="qnaInsert"/>
-			<item value="&quot;writer&quot;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="HAMIN"/>
+			<item value="HAMIN.jsp"/>
+			<item value="HAMIN.do"/>
 			<item value=""/>
+			<item value="qnaModal"/>
 			<item value="actionName"/>
 			<item value="qnaInsertModal"/>
 			<item value="v.qna_date"/>
@@ -36,10 +40,6 @@
 			<item value="회원"/>
 			<item value="%"/>
 			<item value="/"/>
-			<item value="*"/>
-			<item value="배드민턴"/>
-			<item value="테니스"/>
-			<item value="장기"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
