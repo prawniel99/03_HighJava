@@ -53,7 +53,7 @@
 	<update id="mileageUpdate" parameterType="payVo">
 		update member set
 		mem_mileage = #{mem_mileage}
-		where mem_id = #{memId}
+		where mem_id = #{mem_id}
 	</update>
 	
 	<delete id="removeItem" parameterType="String">

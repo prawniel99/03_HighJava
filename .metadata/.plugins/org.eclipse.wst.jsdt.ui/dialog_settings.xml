@@ -5,4 +5,9 @@
 		<item key="expanded1" value="false"/>
 		<item key="expanded2" value="false"/>
 	</section>
+	<section name="JavaSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="INCLUDE_MASK" value="15"/>
+		<item key="HISTORY_SIZE" value="0"/>
+	</section>
 </section>

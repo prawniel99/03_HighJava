@@ -155,19 +155,28 @@
 	      AND prod_id = #{prodId}
 	</select>
 
-<!-- 상품 상세페이지에 리뷰 출력용 -->
-<select id="getProdReview" resultType="reviewVo">
-	select * from review where review_delyn = 'N' and prod_id = '${prod_id}'
-</select>
+	<!-- 상품 상세페이지에 리뷰 출력용 -->
+	<select id="getProdReview" resultType="reviewVo">
+		select * from review where review_delyn = 'N' and prod_id = '${prod_id}'
+	</select>
+
+
 
 	<select id="prodReview" resultType="reviewVo" parameterType="reviewVo">
-		select *
-		  from review A, prod B, oprod C, option_table D
-		 where a.prod_id = b.prod_id
-		   and b.prod_id = c.prod_id
-		   and c.option_id = d.option_id
-		   and b.prod_id = #{prod_id}
-		   and d.option_id = #{option_id}
+		SELECT *
+	    FROM review r
+	    LEFT JOIN (
+	        SELECT review_id, COUNT(*) as report_count
+	        FROM report
+	        WHERE REPORT_STATUS = 'PENDING'
+	        GROUP BY review_id
+	    ) rep ON r.review_id = rep.review_id
+	    LEFT JOIN prod p ON r.prod_id = p.prod_id
+	    LEFT JOIN option_table o ON r.option_id = o.option_id
+	    WHERE NVL(rep.report_count, 0) &lt; 5
+	    AND r.prod_id = #{prod_id}  <!-- 상품 ID를 조건으로 추가 -->
+
+
 	</select>
 
 

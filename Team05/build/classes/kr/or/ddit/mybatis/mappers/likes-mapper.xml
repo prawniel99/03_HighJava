@@ -28,6 +28,6 @@
 	<select id="likesCount" resultType="int" parameterType="String">
 		select count(*)
 		  from likes
-		  where prod_id = #{prod_id}
+		  where prod_id = #{prodId}
 	</select>
 </mapper>
